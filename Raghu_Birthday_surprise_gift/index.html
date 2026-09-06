@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Raghu 💎</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(
+                135deg,
+                #fff0f7,
+                #eadfff,
+                #e0f8ff
+            );
+
+            color: #553750;
+        }
+
+        .container {
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 750px;
+
+            background: rgba(255,255,255,0.9);
+
+            padding: 25px;
+
+            border-radius: 30px;
+
+            text-align: center;
+
+            box-shadow:
+                0 20px 50px rgba(80,40,100,0.2);
+        }
+
+        /* Opening photo */
+
+        .main-photo {
+            width: 100%;
+            max-height: 550px;
+
+            object-fit: cover;
+
+            border-radius: 22px;
+        }
+
+        /* Headings */
+
+        h1 {
+            color: #bd3f7b;
+
+            font-size: 48px;
+
+            margin: 15px 0;
+        }
+
+        h2 {
+            color: #76468d;
+        }
+
+        p {
+            font-size: 18px;
+
+            line-height: 1.7;
+        }
+
+        .diamond {
+            font-size: 55px;
+        }
+
+        /* Button */
+
+        button {
+            border: none;
+
+            padding: 14px 25px;
+
+            border-radius: 30px;
+
+            background: #d4548b;
+
+            color: white;
+
+            font-size: 17px;
+
+            cursor: pointer;
+
+            margin-top: 10px;
+
+            box-shadow: 0 8px 20px rgba(212,84,139,0.3);
+
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.06);
+        }
+
+        /* Hide */
+
+        .hidden {
+            display: none;
+        }
+
+        /* Birthday message */
+
+        .message {
+            background: #fff5fa;
+
+            padding: 20px;
+
+            border-radius: 20px;
+
+            text-align: left;
+
+            margin-top: 20px;
+        }
+
+        /* Photo gallery */
+
+        .gallery {
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 12px;
+
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+
+            height: 240px;
+
+            object-fit: cover;
+
+            border-radius: 18px;
+
+            transition: 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        /* Music */
+
+        audio {
+            width: 100%;
+
+            margin-top: 10px;
+        }
+
+        /* Gift */
+
+        .gift {
+            font-size: 80px;
+
+            cursor: pointer;
+
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes bounce {
+
+            50% {
+                transform: translateY(-12px);
+            }
+
+        }
+
+        /* Final message */
+
+        .final-message {
+            margin-top: 20px;
+
+            padding: 20px;
+
+            background: #fff0f7;
+
+            border-radius: 20px;
+        }
+
+        .forever {
+            font-size: 30px;
+
+            color: #c43e7e;
+        }
+
+        /* Mobile */
+
+        @media(max-width:550px) {
+
+            h1 {
+                font-size: 38px;
+            }
+
+            .gallery img {
+                height: 180px;
+            }
+
+            .card {
+                padding: 17px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+<div class="card">
+
+
+<!-- ========================= -->
+<!-- FIRST SCREEN -->
+<!-- ========================= -->
+
+<div id="opening">
+
+    <img
+        src="photo1.jpg"
+        class="main-photo"
+        alt="Raghu">
+
+    <div class="diamond">
+        💎🎂❤️
+    </div>
+
+    <h1>
+        Hey Raghu!
+    </h1>
+
+    <h2>
+        My Diamond 💎
+    </h2>
+
+    <p>
+        19 • 09 • 2006
+    </p>
+
+    <p>
+        A little surprise made specially for you... 🥹🫂
+    </p>
+
+    <button onclick="openSurprise()">
+
+        💌 Tap To Open Your Surprise
+
+    </button>
+
+</div>
+
+
+
+<!-- ========================= -->
+<!-- SURPRISE PAGE -->
+<!-- ========================= -->
+
+<div id="surprise" class="hidden">
+
+
+    <h1>
+        Happiest Birthday Nannalu! ❤️
+    </h1>
+
+
+    <h2>
+        My Bestest Friend 💎
+    </h2>
+
+
+    <!-- MESSAGE -->
+
+    <div class="message">
+
+        <p>
+            <b>
+                Happiest birthday nannalu.. ❤️🫂
+            </b>
+        </p>
+
+
+        <p>
+            I want this bond forever.
+            Please don't leave me. 🥹
+        </p>
+
+
+        <p>
+            You are the one I mostly pray for,
+            love ❤️ and care about so much.
+        </p>
+
+
+        <p>
+            Sorryy for the mistakes I have done
+            with you.
+        </p>
+
+
+        <p>
+            I may not always be perfect,
+            but this bond means so much to me.
+        </p>
+
+
+        <p>
+            I hope our friendship stays strong
+            forever, through every laugh,
+            silly moment, memory and difficult day.
+            🫂💎
+        </p>
+
+
+        <p>
+            <b>
+                You're not just my best friend...
+                you're my diamond. 💎❤️
+            </b>
+        </p>
+
+    </div>
+
+
+
+    <!-- ========================= -->
+    <!-- PHOTOS -->
+    <!-- ========================= -->
+
+    <h2>
+        📸 Our Little Memories
+    </h2>
+
+
+    <div class="gallery">
+
+        <img src="photo1.jpg" alt="Memory 1">
+
+        <img src="photo2.jpg" alt="Memory 2">
+
+        <img src="photo3.jpg" alt="Memory 3">
+
+        <img src="photo4.jpg" alt="Memory 4">
+
+        <img src="photo5.jpg" alt="Memory 5">
+
+        <img src="photo6.jpg" alt="Memory 6">
+
+    </div>
+
+
+
+    <!-- ========================= -->
+    <!-- SONG -->
+    <!-- ========================= -->
+
+    <h2>
+        🎵 A Special Song For You
+    </h2>
+
+
+    <p>
+        Press play and enjoy your birthday song ❤️
+    </p>
+
+
+    <audio controls>
+
+        <source
+            src="song.mp3"
+            type="audio/mpeg">
+
+        Your browser does not support audio.
+
+    </audio>
+
+
+
+    <!-- ========================= -->
+    <!-- GIFT -->
+    <!-- ========================= -->
+
+    <h2>
+        🎁 One Last Surprise...
+    </h2>
+
+
+    <p>
+        Tap the gift box 👇
+    </p>
+
+
+    <div
+        class="gift"
+        onclick="openGift()">
+
+        🎁
+
+    </div>
+
+
+
+    <!-- ========================= -->
+    <!-- FINAL MESSAGE -->
+    <!-- ========================= -->
+
+    <div
+        id="finalMessage"
+        class="final-message hidden">
+
+
+        <div class="diamond">
+            💎❤️🫂
+        </div>
+
+
+        <h2>
+            Forever & Always
+        </h2>
+
+
+        <p>
+            Whatever happens,
+            I will always treasure
+            this beautiful bond
+            and every memory we share.
+        </p>
+
+
+        <p class="forever">
+
+            Raghu = My Diamond 💎
+
+        </p>
+
+
+        <p>
+
+            Thank you for being
+            such a special person
+            in my life. ❤️
+
+        </p>
+
+
+        <p>
+
+            <b>
+                HAPPIEST BIRTHDAY NANNALU! 🎂🎉❤️
+            </b>
+
+        </p>
+
+
+        <div style="font-size:40px">
+
+            🫂💖💎🎂✨
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<script>
+
+
+/* ========================= */
+/* OPEN SURPRISE */
+/* ========================= */
+
+function openSurprise() {
+
+    document
+        .getElementById("opening")
+        .classList
+        .add("hidden");
+
+
+    document
+        .getElementById("surprise")
+        .classList
+        .remove("hidden");
+
+
+    createHearts();
+
+    createConfetti();
+
+}
+
+
+
+/* ========================= */
+/* OPEN GIFT */
+/* ========================= */
+
+function openGift() {
+
+    document
+        .getElementById("finalMessage")
+        .classList
+        .remove("hidden");
+
+
+    createHearts();
+
+    createConfetti();
+
+}
+
+
+
+/* ========================= */
+/* FLOATING HEARTS */
+/* ========================= */
+
+function createHearts() {
+
+
+    for (let i = 0; i < 20; i++) {
+
+
+        let heart =
+            document.createElement("div");
+
+
+        heart.innerHTML =
+            ["❤️", "💖", "💗", "💎", "🫂"]
+            [Math.floor(Math.random() * 5)];
+
+
+        heart.style.position = "fixed";
+
+        heart.style.left =
+            Math.random() * 100 + "vw";
+
+        heart.style.bottom = "-30px";
+
+        heart.style.fontSize = "25px";
+
+        heart.style.zIndex = "9999";
+
+        heart.style.transition =
+            "transform 5s linear, opacity 5s";
+
+
+        document.body.appendChild(heart);
+
+
+        setTimeout(() => {
+
+            heart.style.transform =
+                "translateY(-110vh)";
+
+            heart.style.opacity = "0";
+
+        }, 100);
+
+
+        setTimeout(() => {
+
+            heart.remove();
+
+        }, 5500);
+
+    }
+
+}
+
+
+
+/* ========================= */
+/* CONFETTI */
+/* ========================= */
+
+function createConfetti() {
+
+
+    for (let i = 0; i < 80; i++) {
+
+
+        let confetti =
+            document.createElement("div");
+
+
+        confetti.style.position =
+            "fixed";
+
+
+        confetti.style.width = "8px";
+
+        confetti.style.height = "14px";
+
+
+        confetti.style.background =
+            ["#ff6b9d",
+             "#b57edc",
+             "#6bcfff",
+             "#ffd166"]
+             [Math.floor(Math.random() * 4)];
+
+
+        confetti.style.left =
+            Math.random() * 100 + "vw";
+
+
+        confetti.style.top = "-20px";
+
+
+        confetti.style.zIndex = "9999";
+
+
+        document.body.appendChild(confetti);
+
+
+        let fall =
+            confetti.animate(
+
+                [
+                    {
+                        transform:
+                        "translateY(0) rotate(0)"
+                    },
+
+                    {
+                        transform:
+                        "translateY(110vh) rotate(720deg)"
+                    }
+                ],
+
+                {
+                    duration:
+                    2000 + Math.random() * 2000,
+
+                    easing: "linear"
+                }
+
+            );
+
+
+        fall.onfinish = () => {
+
+            confetti.remove();
+
+        };
+
+    }
+
+}
+
+</script>
+
+
+</body>
+
+</html>
